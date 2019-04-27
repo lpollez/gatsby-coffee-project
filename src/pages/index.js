@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import BackgroundSection from "../components/globals/BackgroundSection"
 import Info from "../components/home/Info"
+import Menu from "../components/home/Menu"
+import Products from "../components/home/Products"
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => (
@@ -14,6 +16,8 @@ const IndexPage = ({ data }) => (
       title="Laurent's coffee"
     />
     <Info />
+    <Menu items={data.menu} />
+    <Products />
   </Layout>
 )
 
@@ -23,6 +27,24 @@ export const query = graphql`
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    menu: allContentfulCoffeeItem {
+      edges {
+        node {
+          id
+          title
+          price
+          category
+          description {
+            description
+          }
+          image {
+            fixed(width: 50, height: 50) {
+              ...GatsbyContentfulFixed_withWebp
+            }
+          }
         }
       }
     }
