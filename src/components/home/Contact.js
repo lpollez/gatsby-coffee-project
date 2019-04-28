@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
           <form
             name="contact"
-            method="POST"
+            method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
@@ -53,7 +53,6 @@ export default function Contact() {
               Envoyer
             </button>
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
       </div>
