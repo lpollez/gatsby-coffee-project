@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import BackgroundSection from "../components/globals/BackgroundSection"
@@ -18,9 +18,12 @@ const SuccessPage = ({ data }) => (
       <div className="row">
         <div className="col-10 col-sm-8 mx-auto text-center">
           <p className="lead text-muted mb-5">
-            Merci de nous avoir contacté. Nous allons traiter rapidement votre
-            demande et nous reviendrons vers vous.
+            Merci de nous avoir contacté. Nous allons traiter votre demande. A
+            très vite !
           </p>
+          <Link to="/">
+            <button className="btn text-uppercase btn-yellow">Retour</button>
+          </Link>
         </div>
       </div>
     </section>
