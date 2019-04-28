@@ -7,7 +7,12 @@ export default function Contact() {
       <Title title="Contactez-nous" />
       <div className="row">
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <div className="form-group">
               <label htmlFor="name">Nom</label>
               <input
@@ -47,6 +52,8 @@ export default function Contact() {
             >
               Envoyer
             </button>
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
           </form>
         </div>
       </div>
