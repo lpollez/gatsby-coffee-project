@@ -1,10 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import BackgroundSection from "../components/globals/BackgroundSection"
 import Info from "../components/home/Info"
 import Menu from "../components/home/Menu"
+import Contact from "../components/home/Contact"
 import Products from "../components/home/Products"
 import SEO from "../components/seo"
 
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => (
     <Info />
     <Menu items={data.menu} />
     <Products />
+    <Contact />
   </Layout>
 )
 

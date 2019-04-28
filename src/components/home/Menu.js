@@ -70,7 +70,9 @@ export default class Menu extends Component {
                           <small>{node.title}</small>
                         </h6>
                         <h6 className="mb-0 text-yellow">
-                          <small>{node.price}€</small>
+                          <small style={{ color: "#ff9d0a" }}>
+                            {node.price}€
+                          </small>
                         </h6>
                       </div>
                       <p className="text-muted">
