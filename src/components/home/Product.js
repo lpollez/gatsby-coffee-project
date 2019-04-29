@@ -14,7 +14,7 @@ export default function Product({ product }) {
             data-item-id={product.id}
             data-item-name={product.title}
             data-item-price={product.price}
-            data-item-url="https://laurent-coffee.netlify.com/"
+            data-item-url="https://laurent-shop-exemple.netlify.com/"
             data-item-image={product.image.fluid.src}
           >
             Ajouter au panier
