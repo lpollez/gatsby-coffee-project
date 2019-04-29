@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import BackgroundSection from "../components/globals/BackgroundSection"
 import SEO from "../components/seo"
-import Title from "../components/globals/Title"
 
 const SuccessPage = ({ data }) => (
   <Layout>
@@ -18,11 +17,12 @@ const SuccessPage = ({ data }) => (
       <div className="row">
         <div className="col-10 col-sm-8 mx-auto text-center">
           <p className="lead text-muted mb-5">
-            Merci de nous avoir contacté. Nous allons traiter votre demande. A
-            très vite !
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            quibusdam quia ab cupiditate adipisci atque accusantium ipsa saepe
+            nemo delectus.
           </p>
           <Link to="/">
-            <button className="btn text-uppercase btn-yellow">Retour</button>
+            <button className="btn btn-yellow">Retour</button>
           </Link>
         </div>
       </div>

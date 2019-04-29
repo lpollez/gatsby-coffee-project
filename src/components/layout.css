@@ -55,3 +55,9 @@ h6 {
 .contact {
   background: var(--mainGrey);
 }
+/* Snipcart */
+#snipcart-main-content .snip-header,
+#snipcart-main-content .snip-footer,
+#snipcart-main-content .snip-header__total {
+  background: var(--mainBrown);
+}

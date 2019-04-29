@@ -4,7 +4,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Laurent's coffee`,
-    description: `Exemple de site de vente de café développé avec Gatsby`,
+    description: `Exemple de site de vente développé avec Gatsby`,
     author: `Laurent Pollez`,
   },
   plugins: [
@@ -14,6 +14,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "fr",
       },
     },
     `gatsby-transformer-sharp`,
@@ -36,6 +42,13 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-snipcart",
+      options: {
+        apiKey: process.env.SNIPCART_API,
+        autopop: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
