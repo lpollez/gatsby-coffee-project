@@ -71,7 +71,7 @@ export default class Menu extends Component {
                         </h6>
                         <h6 className="mb-0 text-yellow">
                           <small style={{ color: "#ff9d0a" }}>
-                            {node.price}€
+                            {node.price.toFixed(2)}€
                           </small>
                         </h6>
                       </div>
