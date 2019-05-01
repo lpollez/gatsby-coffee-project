@@ -35,7 +35,8 @@ h6 {
   justify-content: center;
   background-position: center;
   background-size: cover;
-  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  opacity: 1 !important;
+  background: rgba(255, 158, 9, 0.5);
 }
 .about-background {
   min-height: 60vh;
