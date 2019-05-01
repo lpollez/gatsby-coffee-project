@@ -22,7 +22,7 @@ const SuccessPage = ({ data }) => (
             nemo delectus.
           </p>
           <Link to="/">
-            <button className="btn btn-yellow">Retour</button>
+            <button className="btn btn-yellow">Accueil</button>
           </Link>
         </div>
       </div>
