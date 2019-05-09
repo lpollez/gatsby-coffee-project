@@ -18,7 +18,7 @@ export default function Info({ title, message }) {
 
 Info.defaultProps = {
   title: "Infos",
-  message: `Ce site est un simple exemple de site marchand. Il est développé
+  message: `Ceci est un simple exemple de site marchand. Il est développé
               avec les technologies modernes (notamment React qui est la
               librairie de programmation développée par Facebook), ce qui le
               rend très performant. A contenu égal, il est 6 à 10 fois plus
