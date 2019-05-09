@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="Coffee Store"
-      subtitle="Exemple de site marchand"
+      subtitle="exemple de site marchand"
     />
     <Info />
     <Menu items={data.menu} />
