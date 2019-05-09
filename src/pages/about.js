@@ -8,10 +8,10 @@ import SEO from "../components/seo"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="A propos" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Qui sommes-nous"
+      title="A propos du site"
       styleClass="about-background"
     />
     <Info />

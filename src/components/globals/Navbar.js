@@ -16,7 +16,7 @@ export default class Navbar extends Component {
       {
         id: 2,
         path: "/about",
-        text: "Qui sommes-nous",
+        text: "A propos",
       },
     ],
   }
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav className="navbar navbar-expand-sm navbar-dark navbar-color">
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="logo" />
           {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon

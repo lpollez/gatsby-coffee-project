@@ -3,8 +3,8 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Laurent's coffee`,
-    description: `Exemple de site de vente développé avec Gatsby`,
+    title: `Coffee Store`,
+    description: `Exemple de site marchand développé avec Gatsby`,
     author: `Laurent Pollez`,
   },
   plugins: [
