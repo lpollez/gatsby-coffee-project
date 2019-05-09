@@ -7,7 +7,7 @@ export default function Info({ title, message }) {
       <div className="container">
         <Title title={title} />
         <div className="row">
-          <div className="col-10 col-sm-9 mx-auto text-center">
+          <div className="col-10 mx-auto text-justify">
             <p className="lead text-muted">{message}</p>
           </div>
         </div>
