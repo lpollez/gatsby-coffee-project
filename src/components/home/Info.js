@@ -27,9 +27,9 @@ Info.defaultProps = {
             et un hébergement simplifié. Ce site de démonstration intègre un
             formulaire de contact, un filtre sur produits et un panier
             d'achats. Vous pouvez tester le processus d'achats avec les
-            données de tests indiquées. Bien sûr, le site est responsive, càd
-            que son contenu s'adapte à la taille de l'écran. Les
-            possibilités de développement sont extrêmement puissantes et
+            données de tests indiquées. Bien sûr, le site est responsive, 
+            ce qui veut dire que son contenu s'adapte à la taille de l'écran. 
+            Les possibilités de développement sont extrêmement puissantes et
             nombreuses (site vitrine, site e-commerce, applications métiers,
             progressive web apps, ...).`,
 }
